@@ -2,16 +2,17 @@ section.informacoes {
     width: 782px;
     margin-top: 1em;
     line-height: 1.25;
+    background-color: var(--fundo-card);
+  
 }
 
 .informacoes .informacoes-perfil {
-    font-size: 0.625rem;
     margin-top: 2.4rem;
 }
 
 .informacoes-perfil .perfil-capa {
     width: min(100%, 782px);
-    height: 196px;
+    height: 220px;
     object-fit: cover;
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
@@ -53,15 +54,15 @@ section.informacoes {
 }
 
 .perfil-detalhes-pessoal h1 {
-    font-size: 1.6em;
+    font-size: 1.5rem;
 }
 
 .perfil-detalhes-pessoal div {
-    font-size: 1.6em;
+    font-size: 1rem;
 }  
 
 .perfil-detalhes-pessoal div.texto-pequeno {
-    font-size: 1.4em;
+    font-size: 0.875rem;
     color: var(--texto-secundario);
 }
 
@@ -69,10 +70,14 @@ section.informacoes {
     grid-area: carreira;
 }
 
+.perfil-detalhes-carreira h2 {
+    font-size: 1rem;
+}
+
 ul.perfil-detalhes-carreira li a {
     display: flex;
     align-items: center;
-    margin-bottom: .6rem;
+    margin-bottom: .6rem;    
 }
 
 ul.perfil-detalhes-carreira li a img {
@@ -83,7 +88,7 @@ ul.perfil-detalhes-carreira li a img {
 
 .perfil-detalhes-local {
     grid-area: local;
-    font-size: 1.4em;
+    font-size: 0.875rem;
 }
 
 .perfil-detalhes-local .local-contato {
@@ -94,8 +99,8 @@ ul.perfil-detalhes-carreira li a img {
     display: flex;
     position: relative;
     padding-top: 4px;
-   font-size: 1.4em;
-   color: var(--primario); 
+    font-size: 0.875rem;
+    color: var(--primario); 
 }
 
 .perfil-conexoes li:last-child,
