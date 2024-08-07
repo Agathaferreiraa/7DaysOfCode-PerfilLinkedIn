@@ -1,0 +1,24 @@
+section.card .idiomas {
+    padding: 1rem 1.6rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+li.idioma {
+    margin-top: 1rem;
+}
+
+li.separador {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--texto-secundario);
+    border-left: none;
+}
+
+li.idioma p {
+    font-weight: 600;
+}
+
+li.idioma span {
+    font-size: .875rem;
+    color: var(--texto-secundario);
+}

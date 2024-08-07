@@ -4,6 +4,7 @@
   padding: 0 6rem;
   display: flex;
   justify-content: space-around;
+  margin: 0;
 }
 
 .navbar-busca {
@@ -57,8 +58,8 @@
   justify-content: center;
 }
 
-.navbar-item :last-child{
-  margin-left: .2rem;
+.separador {
+  margin-left: .5rem;
   border-left: 1px solid var(--texto-secundario);  
 }
 
@@ -108,7 +109,7 @@ span.solucoes {
 
 
 @media(max-width: 1024px){
-  .navbar{
+  section.navbar{
     padding: 0 4rem;
   }
 

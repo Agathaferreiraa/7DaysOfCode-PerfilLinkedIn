@@ -2,6 +2,23 @@
 @import url('./reset.css');
 @import url('./secao-informacoes-perfil.css');
 @import url(header-navbar.css);
+@import url(destaques.css);
+@import url(atividades.css);
+@import url(sobre.css);
+@import url(experiencias.css);
+@import url(formacao.css);
+@import url(idiomas.css);
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+section{
+ margin-top: 1rem;
+}
 
 body{
    background-color: var(--fundo-escuro);

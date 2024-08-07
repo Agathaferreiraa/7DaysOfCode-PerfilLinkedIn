@@ -1,0 +1,59 @@
+section.card.atividades {
+    padding: 1rem 1.6rem;
+    font-size: .875rem;
+    width: 48.875rem;
+    background: var(--fundo-card);
+    border-radius: 16px;
+}
+
+.atividades .seguidores {
+    font-weight: 600;
+}
+
+.publicacoes-atividades {
+    margin-top: .5rem;
+}
+
+.engajamento {
+    border-bottom: 1px solid var(--texto-secundario);
+}
+
+
+.item-atividade .conteudo-atividade div {
+    display: flex;
+    margin-top: .5rem;
+}
+
+.item-atividade .conteudo-atividade div img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    margin-right: .5rem;
+}
+
+.item-atividade .conteudo-atividade div p {
+    text-align: justify;
+}
+  
+.item-atividade .engajamento {
+    display: flex;
+    justify-content: space-between;
+    color: var(--texto-secundario);
+}
+
+.item-atividade .engajamento .reacoes {
+    width: 60px;
+}
+
+.item-atividade{
+    margin-top: 1rem;
+}
+  
+a.expandir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.75rem;
+    width: 100%;
+    color: var(--texto-secundario)
+}

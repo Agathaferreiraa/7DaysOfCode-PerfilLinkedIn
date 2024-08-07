@@ -1,9 +1,9 @@
 section.informacoes {
-    width: 782px;
+    width: 48.875rem;
     margin-top: 1em;
     line-height: 1.25;
     background-color: var(--fundo-card);
-  
+    border-radius: 16px;
 }
 
 .informacoes .informacoes-perfil {
