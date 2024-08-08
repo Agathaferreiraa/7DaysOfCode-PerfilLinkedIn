@@ -11,11 +11,16 @@ section.informacoes {
 }
 
 .informacoes-perfil .perfil-capa {
-    width: min(100%, 782px);
-    height: 220px;
+    width: min(100%, 48.063rem);
+    height: 13.75rem;
     object-fit: cover;
     border-top-left-radius: .8rem;
     border-top-right-radius: .8rem;
+}
+
+.perfil-capa img{
+height: 14.41rem;
+border-radius: 16px 16px 0 0;
 }
 
 .perfil-foto-wrap,

@@ -1,0 +1,67 @@
+div .sugestoes {
+    margin-top: 1rem;
+    grid-area: conteudo;
+}
+
+section .card, .sugestoes {
+    width: 20rem;
+    padding: 1rem;
+    font-size: .875rem;
+}
+
+.sugestoes h2{
+    font-size: 1rem;
+}
+
+.sugestao-item >img{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 8px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sugestao-item>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.sugestao-item, .perfil-nome:hover {
+    color: var(--primario);
+    cursor: pointer;
+}
+
+.sugestao-item, .perfil-titulo {
+    font-size: .75rem;
+    color: var(--texto-secundario);
+}
+
+.botao-sugestao {
+    width: 9.625rem;
+    color: var(--texto-principal);
+    border: 1px solid var(--texto-principal);
+    background-color: transparent;
+    margin-top: 4px;
+}
+
+button.botao-sugestao.conectar {
+    width: 99px;
+}
+
+.botao-sugestao:hover, .conectar:hover{
+    color: var(--primario);
+    border: 1px solid white;
+}
+
+  
+
+@media(max-width: 1024px) {
+
+    div.sugestoes {
+      margin: .25rem 0 .5rem 0;
+    }   
+
+    section.card.sugestoes {
+      width:  782px;
+    }   
+}
